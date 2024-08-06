@@ -2071,7 +2071,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px rgba(255, 255, 255, 0.38);
 				color: #ffffff;
 				content: 'View';
 				display: inline-block;
@@ -2597,7 +2597,7 @@ input, select, textarea {
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(217, 156, 156, 0.503);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2630,9 +2630,9 @@ input, select, textarea {
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
-
+/*color of name!! */
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #fd8492;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -3223,8 +3223,9 @@ input, select, textarea {
 		font-size: 30px;
 		overflow: hidden; /* Ensures the text doesn't overflow the element */
 		white-space: nowrap; /* Keeps the text on one line */
-		border-right: 0.15em solid orange; /* Creates the cursor effect */
+		border-right: 0.15em solid #fd8492; /* Creates the cursor effect */
 		animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end 3.5s 7;
+		color: #fd8492; /* Sets the text color to match the cursor */
 	}
 	
 	@keyframes typing {
@@ -3234,6 +3235,6 @@ input, select, textarea {
 	
 	@keyframes blink-caret {
 		from, to { border-color: transparent }
-		50% { border-color: orange; }
+		50% { border-color: #fd8492; }
 	}
 	
